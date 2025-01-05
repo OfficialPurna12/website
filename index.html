@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purna Bahadur Khatri</title>
+    <!-- Bootstrap 5.0 CSS -->
+
+    <!-- add a icon to navbar -->
+
+    <link rel="icon" href="images/about.jpg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+ 
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Purna Bahadur Khatri</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Success Modal -->
+<div class="modal fade" id="successModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Message Sent</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for your message! I'll get back to you soon.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Dark Mode Toggle (add to navbar or header) -->
+<div class="form-check form-switch">
+    <input class="form-check-input" type="checkbox" id="darkModeToggle">
+    <label class="form-check-label" for="darkModeToggle">Dark Mode</label>
+</div>
+
+    <!-- Home Section -->
+    <section id="home">
+        <!-- Image Column -->
+        <div>
+            <img src="images/purns.JPG" alt="John Doe" class="home-image">
+        </div>
+        
+        <!-- Content Column -->
+        <div class="home-content">
+            <span class="subtitle">Hello, I'm</span>
+            <h1>Purna Bahadur Khatri</h1>
+            <p class="lead">Web Developer & Graphic Designer</p>
+            
+            <p class="mt-3">
+                Passionate about creating beautiful, functional digital experiences. 
+                Specializing in web development and graphic design with a keen eye for detail.
+            </p>
+            
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a target="_blank" href="https://www.facebook.com/Purnakhatri630" class="social-icon" title="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/purn.akhatri/" class="social-icon" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/purna-bahadur-khatri-b6982a320/" class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a target="_blank" href="https://github.com/purnakhatriofficial" class="social-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            
+            <div class="mt-4">
+                <a href="#contact" class="btn btn-primary me-3">Hire Me</a>
+                <a download="" href="Purna_resume (2).pdf" class="btn btn-outline-secondary">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+        <h2 class="text-center section-title">About Me</h2>
+        <div class="about-grid">
+            <!-- Photo Column -->
+            <div>
+                <img src="images/about.jpg" alt="John Doe" class="about-photo">
+            </div>
+            
+            <!-- Content Column -->
+            <div class="about-content">
+                <h3>Purna Bahadur Khatri</h3>
+                <h4 class="text-muted">Web Developer & Graphic Designer</h4>
+                
+                <p class="mt-4">
+                    I'm a passionate web developer and graphic designer with two year of professional experience. 
+                    My journey in the digital world began with a fascination for creating visually appealing and 
+                    functional digital experiences.
+                </p>
+                
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <h5>Personal Details</h5>
+                        <ul class="list-unstyled">
+                            <li><strong>Age:</strong> 22</li>
+                            <li><strong>Location:</strong> Kathmandu, Nepal</li>
+                            <li><strong>Freelance:</strong> Available</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Professional Details</h5>
+                        <ul class="list-unstyled">
+                            <li><strong>Experience:</strong> 2 Year</li>
+                            <li><strong>Degree:</strong> Bachelor's of Science in Computing Data Analysis</li>
+                            <li><strong>Email:</strong> purnakhatri630@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <a href="#contact" class="btn btn-primary me-3">Hire Me</a>
+                    <a download="" href="Purna_resume (2).pdf" class="btn btn-outline-secondary">Download CV</a>
+                </div>
+            </div>
+        </div><br><br><br>
+
+       
+    <!-- Random password generator -->
+
+    <div class="pwd-generator-card">
+        <h1 class="pwd-generator-title">Password Generator</h1>
+        
+        <div class="pwd-display-box">
+            <input type="text" class="pwd-input-field" readonly placeholder="Click generate to create password">
+            <button class="pwd-copy-button" title="Copy to clipboard">
+                <i class="far fa-copy"></i>
+            </button>
+        </div>
+
+        <div class="pwd-settings-group">
+            <div class="pwd-setting-item">
+                <input type="checkbox" id="uppercase" class="pwd-checkbox" checked>
+                <label for="uppercase" class="pwd-setting-label">Include Uppercase Letters</label>
+            </div>
+            <div class="pwd-setting-item">
+                <input type="checkbox" id="lowercase" class="pwd-checkbox" checked>
+                <label for="lowercase" class="pwd-setting-label">Include Lowercase Letters</label>
+            </div>
+            <div class="pwd-setting-item">
+                <input type="checkbox" id="numbers" class="pwd-checkbox" checked>
+                <label for="numbers" class="pwd-setting-label">Include Numbers</label>
+            </div>
+            <div class="pwd-setting-item">
+                <input type="checkbox" id="symbols" class="pwd-checkbox">
+                <label for="symbols" class="pwd-setting-label">Include Symbols</label>
+            </div>
+            <div class="pwd-setting-item">
+                <label for="length" class="pwd-setting-label">Password Length:</label>
+                <input type="range" id="length" class="pwd-length-slider" min="8" max="32" value="16">
+                <span class="pwd-length-number">16</span>
+            </div>
+        </div>
+
+        <div class="pwd-strength-container">
+            <span>Strength:</span>
+            <div class="pwd-strength-indicator">
+                <div class="pwd-strength-bar"></div>
+                <div class="pwd-strength-bar"></div>
+                <div class="pwd-strength-bar"></div>
+                <div class="pwd-strength-bar"></div>
+            </div>
+        </div>
+
+        <button class="pwd-generate-btn">Generate Password</button>
+    </div>
+
+    <div class="pwd-notification">Password copied to clipboard!</div>
+
+
+<br><br><br>
+
+        <!-- Skills Section -->
+        <div id="skills" class="text-center mt-5">
+            <h3>Technical Skills</h3>
+            <div>
+                <span class="badge   bg-primary">HTML5</span>
+                <span class="badge  bg-secondary">CSS3</span>
+                <span class="badge  bg-success">JavaScript</span>
+                <span class="badge  bg-info">Bootstrap</span>
+                <span class="badge  bg-warning">Adobe Photoshop</span>
+                <span class="badge  bg-danger">Figma</span>
+                <span class="badge  bg-dark">Python</span>
+                <span class="badge  bg-info">Wordpress</span>
+                <span class="badge  bg-warning">Tailwind CSS</span>
+                <span class="badge  bg-success">SQL</span>
+            </div>
+        </div>
+    </section>
+
+        <!-- add a text type section for summary -->
+
+        <div class="type_here">
+            <h2>Type Here</h2>
+            <textarea id="textArea" placeholder="Type Here......" cols="70" rows="20"></textarea>
+            <br>
+            <button class="copy-btn" onclick="copyText()">Copy Text</button>
+        </div><br><br>
+
+        <!-- To do list -->
+
+
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-lg">
+                        <div class="card-header bg-primary text-white">
+                            <h3 class="mb-0">To Do List App</h3>
+                        </div>
+                        <div class="card-body">
+                            <!-- Add Task Form -->
+                            <form id="todoForm" class="mb-4">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <input type="text" id="todoInput" class="form-control" placeholder="Enter your task" required>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <select id="prioritySelect" class="form-select">
+                                            <option value="low">Low Priority</option>
+                                            <option value="medium">Medium Priority</option>
+                                            <option value="high">High Priority</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="submit" class="btn btn-primary w-100">
+                                            Add Task
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+    
+                            <!-- Task Counter -->
+                            <div class="row mb-4">
+                                <div class="col-md-4">
+                                    <div class="card bg-primary text-white">
+                                        <div class="card-body text-center">
+                                            <h6>Total Tasks</h6>
+                                            <h4 id="totalTasks">0</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card bg-success text-white">
+                                        <div class="card-body text-center">
+                                            <h6>Completed</h6>
+                                            <h4 id="completedTasks">0</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card bg-warning text-dark">
+                                        <div class="card-body text-center">
+                                            <h6>Pending</h6>
+                                            <h4 id="pendingTasks">0</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Task List -->
+                            <div id="todoList" class="list-group"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Edit Modal -->
+        <div class="modal fade" id="editModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Edit Task</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" id="editInput" class="form-control mb-3">
+                        <select id="editPriority" class="form-select">
+                            <option value="low">Low Priority</option>
+                            <option value="medium">Medium Priority</option>
+                            <option value="high">High Priority</option>
+                        </select>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary" id="saveEdit">Save Changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+     
+     
+
+    <!-- Projects Section -->
+    <section id="projects" class="container py-5 bg-light">
+        <h2 class="text-center section-title">Projects</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="images/ecommerce.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">E-commerce Website</h5>
+                        <p class="card-text">An E-commerce Website is an online platform that allows businesses to buy and sell products or services over the internet. It provides features like product catalogs, shopping carts, payment processing, and order management to facilitate online transactions.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="images/personal_website.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">A Portfolio Website is a personal or professional online platform used to showcase an individual's work, skills, and achievements. It is commonly used by creatives like designers, developers, and photographers to highlight their projects and attract clients or employers.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="images/gra.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Graphics Design</h5>
+                        <p class="card-text">Graphic Design is the art of creating visual content to communicate messages through typography, imagery, colors, and layouts. It is used in branding, advertising, web design, and various media to convey ideas effectively and attractively.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="images/app.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Mobile App Landing Page</h5>
+                        <p class="card-text">A Mobile App Landing Page is a dedicated web page designed to promote and showcase the features of a mobile app. It highlights the app's benefits, provides download links, and encourages users to install the app on their devices.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="images/nesa.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">News Portal Website</h5>
+                        <p class="card-text">A News Portal Website is an online platform that delivers the latest news and updates across various categories like politics, sports, entertainment, and technology. It typically features articles, videos, and interactive content to keep users informed and engaged.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-4 mb-4">
+                <div class="card project-card">
+                    <img src="images/ui-ux.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">UI/UX</h5>
+                        <p class="card-text">UI (User Interface) refers to the visual elements and layout of a website or app, including buttons, icons, and menus, that users interact with. UX (User Experience) focuses on the overall experience a user has while interacting with a product, .</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="container py-5">
+        <h2 class="text-center section-title">My Services</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card service-card text-center p-4">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="h4 mb-3">Web Development</h3>
+                    <p class="text-muted">
+                        Creating responsive and dynamic websites using modern web technologies 
+                        including HTML5, CSS3, JavaScript, and Bootstrap.
+                    </p>
+                    <ul class=" list-unstyled">
+                        <li>Responsive Design</li>
+                        <li>Frontend Development</li>
+                        <li >Website Optimization</li><br><br>
+                        <a href="#" class="btn btn-danger mb-4">Click Now</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card service-card text-center p-4">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="h4 mb-3">Graphic Design</h3>
+                    <p class="text-muted">
+                        Professional graphic design services including logo creation, 
+                        branding materials, and visual content for digital platforms.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>Logo Design</li>
+                        <li>Branding</li>
+                        <li>Social Media Graphics</li><br><br>
+                        <a href="#" class="btn btn-danger mb-4">Click Now</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card service-card text-center p-4">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="h4 mb-3">UI/UX Design</h3>
+                    <p class="text-muted">
+                        User-centered design solutions that focus on creating intuitive 
+                        and engaging user interfaces for web and mobile applications.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>Wireframe</li>
+                        <li>Prototype Design</li>
+                        <li>User Experience Consulting</li><br><br>
+                        <a href="#" class="btn btn-danger mb-4">Click Now</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Team Member Section -->
+     <!-- Our Team Section -->
+<section id="team" class="container py-5">
+    <h2 class="text-center section-title">Our Team</h2>
+    <div class="row">
+        <!-- Team Member 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card team-card text-center">
+                <img src="images/bi.jpg" class="card-img-top" alt="Team Member 1">
+                <div class="card-body">
+                    <h5 class="card-title">bishwaraj paudel</h5>
+                    <p class="card-text">Pyhton Team Lead</p>
+                    
+                    <div class="social-icons">
+                        <a target="_blank" href="#" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="#" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card team-card text-center">
+                <img src="images/sajal.jpg" class="card-img-top" alt="Team Member 2">
+                <div class="card-body">
+                    <h5 class="card-title">Sajal Shrestha</h5>
+                    <p class="card-text">Web Developer</p>
+                  
+                    <div class="social-icons">
+                        <a target="_blank" href="#" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="#" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card team-card text-center">
+                <img src="images/sara.jpg" class="card-img-top" alt="Team Member 2">
+                <div class="card-body">
+                    <h5 class="card-title">Er.Samrajya shrestha</h5>
+                   <p>Senior Web Developer</p>
+                    <div class="social-icons">
+                        <a target="_blank" href="#" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="#" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card team-card text-center">
+                <img src="images/purns.JPG" class="card-img-top" alt="Team Member 2">
+                <div class="card-body">
+                    <h5 class="card-title">Purna Bahadur Khatri</h5>
+                    <p class="card-text">Graphic Designer & UI/UX Designer</p>
+                   
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.linkedin.com" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="https://github.com" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card team-card text-center">
+                <img src="images/nabin5.jpeg" class="card-img-top" alt="Team Member 2">
+                <div class="card-body">
+                    <h5 class="card-title">Nabin Nath</h5>
+                    <p class="card-text">Ui/UX Designer</p>
+                    
+                    <div class="social-icons">
+                        <a target="_blank" href="#" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="#" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card team-card text-center">
+                <img src="images/hemraj.jpg" class="card-img-top" alt="Team Member 3">
+                <div class="card-body">
+                    <h5 class="card-title">Hemraj Khatri</h5>
+                    <p class="card-text">Digital Marketing</p>
+                    
+                    <div class="social-icons">
+                        <a target="_blank" href="#" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="#" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5">
+        <h2 class="text-center section-title">Contact Me</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Purna Bahadur Khatri. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap 5.0 JS and Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <script src="js/script.js">
+    //     // Simple form validation
+    //     document.getElementById('contactForm').addEventListener('submit', function(e) {
+    //         e.preventDefault();
+    //         alert('Thank you for your message! I will get back to you soon.');
+    //         this.reset();
+    //     });
+
+    //     // Smooth scrolling for navigation
+    //     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    //         anchor.addEventListener('click', function(e) {
+    //             e.preventDefault();
+    //             document.querySelector(this.getAttribute('href')).scrollIntoView({
+    //                 behavior: 'smooth'
+    //             });
+    //         });
+    //     });
+    // </script>
+</body>
+</html>
